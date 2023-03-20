@@ -1,0 +1,90 @@
+/*font family fallbacks: use Google font "Explora" first, then cursive from the system.*/
+/*Responsiveness for mobile version*/
+h1 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: 'Explora', cursive;
+    font-size: 55px
+}
+
+h2 {
+    color: white;
+    font-family: 'Explora', cursive;
+    font-size: 30px;
+}
+
+h3{
+    color: white;
+    font-family: 'Explora', cursive;
+    font-size: 20px;
+}
+
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+}
+
+img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header-grid-item {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+p {
+    color: white;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+li {
+    color: white;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+#quotes {
+    text-align: center;
+}
+
+.intro-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.intro-grid-item-left {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.intro-grid-item-right {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+#intro-pic {
+    height: 100px;
+}
+
+#title {
+    margin-top: 0px;
+}

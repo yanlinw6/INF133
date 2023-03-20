@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Yanlin Wu
+EMAIL: yanlinw6@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="authur" content="Yanlin Wu">
+  <meta name="description" content="This is my personal portfolio and hope you enjoy it!">
+  <!-- you would link to an external stylesheet here! -->
+  <!-- Resposiveness check for both desktop and mobile screen size.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="only screen and (max-width: 960px)" href="mobile.css">
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+  <!--Google fonts below-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+  <title>Yanlin Wu's Portfolio</title>
+</head>
+<!--navigation & external links-->
+<body>
+  <header>
+    <nav class="header-grid">
+        <a class="header-grid-item" href="index.html">Home</a >
+        <a class="header-grid-item" href="intro.html">Introduction</a >
+        <a class="header-grid-item" href="https://github.com/yanlinw6?tab=repositories">MyGithub</a >
+    </nav>
+  </header>
+  <main>
+  <h1>Hello!</h1>
+  <h2>I am Yanlin Wu. Welcome to my online portfolio!</h2>
+  <h3>You can find things here about me.</h3>
+  <!-- a laptop image online-->
+  <img src="homepage-laptop.jpeg" alt="A Macbook. 
+  I always use a Mac for all the coding as a computer science major.">
+  <!-- a famous quotes about success-->
+  <div id = "quotes">
+    <ul style="list-style: none;">
+    <li>"Ask yourself today if what you are doing today is getting you closer to where you want to be tomorrow."</li>
+    </ul>
+  </div>
+  <!--search online for audio control.-->
+  <audio controls autoplay hidden> <!-- hidden -->
+    <source src="Skylar_Stecker_YOU.m4a" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- fallbacks of audio(codes found online)-->
+  <script>
+    var audioTag = document.createElement('audio');
+    if (!(!!(audioTag.canPlayType) && ("no" != audioTag.canPlayType("audio/mpeg")) && ("" != audioTag.canPlayType("audio/mpeg")))) {
+      AudioPlayer.embed("audioplayer", { soundFile: "Skylar_Stecker_YOU.m4a" });
+    }
+  </script>
+  </main>
+</body>
+
+</html>
